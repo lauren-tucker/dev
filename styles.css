@@ -1,0 +1,130 @@
+@font-face{
+    font-family:Roboto;
+    src:url(/Assets/Fonts/Roboto-Regular.ttf);
+    font-weight: medium;
+}
+@font-face{
+    font-family:Ultra;
+    src:url(/Assets/Fonts/Ultra-Regular.ttf);
+}
+@font-face{
+    font-family:Archivo;
+    src:url(/Assets/Fonts/Archivo-VariableFont_wdth\,wght.ttf);
+}
+@font-face{
+    font-family:ArchivoItalic;
+    src:url(/Assets/Fonts/Archivo-Italic-VariableFont_wdth\,wght.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src:url(/Assets/Fonts/Roboto-Medium.ttf);
+    font-weight:bold;
+}
+
+button{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    color:#de509e;
+    background: linear-gradient(0deg,#e3b6cb,#f3c6db);
+    padding: 15px;
+    border: 2px solid;
+    border-color: #e3b6cb;
+    border-radius:5%;
+    margin:15px;
+}
+button:hover{
+    background: linear-gradient(0deg,#e3b6cb,#e3dedd);
+    transition:0.7s;
+    color:#ed6cb3;
+}
+
+
+i{font-size: 50px;
+    padding: 5px;}
+content {max-width: 960px; margin: auto;}
+body {background-color:#e3dedd;
+    font-family: Roboto;
+    text-align: left;
+    color: #124259;
+    
+}
+
+img {
+    padding:0px;
+    margin:10px;
+    width:300px    ;
+    border:2px solid;
+    border-color: #e3b6cb;
+    border-radius: 1%;
+}
+.profile{
+    padding-left:15%;
+    padding-right:15%;
+}
+.gallery{
+    padding:5px;
+    margin: 25px;
+    border:2px solid;
+    border-color:#e3b6cb;
+    border-radius: 1%;
+    background-color: #e3b6cb;
+}
+.gameGallery{
+    background-color: #e3b6cb;
+    border: 2px solid;
+    border-color: #e3b6cb;
+    border-radius: 1%;
+    padding-left: 5px;
+    padding-right:5px;
+    margin: 5px;
+}
+
+h1 {color: #de509e;
+    font-family: Archivo;
+    font-size: 80px;}
+h1:hover{
+    color:#ed6cb3;
+    transition: 0.7s;
+}
+h2 {color: #124259;
+    font-family: Archivo;
+    font-size: 40px;}
+h3 {font-family: Archivo;
+    font-size: 25px;
+    color: #124259;
+    }
+h4{font-family: Archivo;
+    font-size: 20px;
+    color:#124259;}
+th {color: #de509e}
+a {color:#124259}
+
+footer{background-color: #de509e;
+        padding-top:7px;
+        padding-bottom: 7px;
+        padding-left: 30px;
+        padding-right: 20px;}
+
+.footerTable{
+    width: 100%;
+}
+.socials{text-align: right; 
+         padding:10px;
+}
+input {border: 1px #de509e;
+    border-radius: 4px;
+border-style: solid;
+background-color:#e3dedd;
+color: #de509e;}
+
+table{
+    padding:0px;
+    margin:5px;
+}
+
+textarea {border: 1px #de509e;
+    border-radius: 4px;
+border-style: solid;
+background-color:#e3dedd;
+color: #de509e;}
