@@ -1,28 +1,5 @@
-@font-face{
-    font-family:Roboto;
-    src:url(/Assets/Fonts/Roboto-Regular.ttf);
-    font-weight: medium;
-}
-@font-face{
-    font-family:Ultra;
-    src:url(/Assets/Fonts/Ultra-Regular.ttf);
-}
-@font-face{
-    font-family:Archivo;
-    src:url(/Assets/Fonts/Archivo-VariableFont_wdth\,wght.ttf);
-}
-@font-face{
-    font-family:ArchivoItalic;
-    src:url(/Assets/Fonts/Archivo-Italic-VariableFont_wdth\,wght.ttf);
-}
-@font-face{
-    font-family: Roboto;
-    src:url(/Assets/Fonts/Roboto-Medium.ttf);
-    font-weight:bold;
-}
-
 button{
-    font-family: Roboto;
+    font-family: Arial;
     font-size: 20px;
     font-weight: bold;
     color:#de509e;
@@ -44,7 +21,7 @@ i{font-size: 50px;
     padding: 5px;}
 content {max-width: 960px; margin: auto;}
 body {background-color:#e3dedd;
-    font-family: Roboto;
+    font-family: Arial;
     text-align: left;
     color: #124259;
     
@@ -81,20 +58,20 @@ img {
 }
 
 h1 {color: #de509e;
-    font-family: Archivo;
+    font-family: Arial;
     font-size: 80px;}
 h1:hover{
     color:#ed6cb3;
     transition: 0.7s;
 }
 h2 {color: #124259;
-    font-family: Archivo;
+    font-family: Arial;
     font-size: 40px;}
 h3 {font-family: Archivo;
     font-size: 25px;
     color: #124259;
     }
-h4{font-family: Archivo;
+h4{font-family: Arial;
     font-size: 20px;
     color:#124259;}
 th {color: #de509e}
