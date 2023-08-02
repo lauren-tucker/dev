@@ -67,7 +67,7 @@ h1:hover{
 h2 {color: #124259;
     font-family: Arial;
     font-size: 40px;}
-h3 {font-family: Archivo;
+h3 {font-family: Arial;
     font-size: 25px;
     color: #124259;
     }
@@ -81,7 +81,9 @@ footer{background-color: #de509e;
         padding-top:7px;
         padding-bottom: 7px;
         padding-left: 30px;
-        padding-right: 20px;}
+        padding-right: 20px;
+          font-family: Arial;
+}
 
 .footerTable{
     width: 100%;
